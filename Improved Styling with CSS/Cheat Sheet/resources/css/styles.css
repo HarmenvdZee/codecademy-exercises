@@ -1,0 +1,61 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../images/uitgelichte-afbeelding-css-code.jpg);
+    height: 300px;
+    backdrop-filter: blur(5px);
+    height: auto;
+}
+
+
+header h1 {
+    backdrop-filter: blur(5px);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main {
+    background-color: #1f1B24;
+}
+
+article {
+    margin:auto;
+    max-width: 70%;
+    min-width: 100px;
+}
+article h2 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+article h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+td, th {
+    padding: 5px;
+    margin: 15px;
+    border: #fdfdfd 1px solid;
+}
+
+p {
+    margin: 20px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <title>CSS selectors and specificity</title>
+  </head>
+  <body>
+    <header>
+        <div class="banner">
+            <h1>CSS selectors and specificity</h1>
+        </div>
+    </header>
+    <main>
+      <article>
+        <h2>Which styling rule is applied when multiple rules collide</h2>
+        <p>
+          On this page we will discuss how the browser determines which styling to
+          apply when their are multiple styling rules acting on the same element
+          and property of that element.
+          <br />
+          <br />
+          This is mainly done by looking at the which selector is used for the
+          styling rules of that element. Based on the selectors the browser
+          creates an order of importance for the styling rules.
+          <br />
+          <br />
+          The order of importance for these selectors will be covered in the
+          following table
+        </p>
+  
+        <div class="tableOfImportance">
+          <h3>Table of selector importance</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Selector</th>
+                <th>HTML</th>
+                <th>CSS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ID</td>
+                <td>id='IDselector'</td>
+                <td>#IDselector {}</td>
+              </tr>
+              <tr>
+                <td>class</td>
+                <td>class='classSelector'</td>
+                <td>.classSelector {}</td>
+              </tr>
+              <tr>
+                <td>type</td>
+                <td>&lttype&gt &lt/type&gt</td>
+                <td>type {}</td>
+              </tr>
+              <tr>
+                <td>no value</td>
+                <td class="'italic">all elements</td>
+                <td>* {}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  
+        <p>
+          So for example if an elements font size is determined by both a styling
+          rule that uses its type and a styling rule that uses its ID. Then it
+          will take the font size of the rule that uses the ID.
+        </p></article>
+      
+    </main>
+  </body>
+</html>
