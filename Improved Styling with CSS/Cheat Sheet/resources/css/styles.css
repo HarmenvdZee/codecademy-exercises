@@ -17,14 +17,14 @@ h3 {
 
 header {
     background-image: url(../images/uitgelichte-afbeelding-css-code.jpg);
+    background-size: cover;
     height: 300px;
-    backdrop-filter: blur(5px);
     height: auto;
 }
 
 
 header h1 {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     text-align: center;
     color: aliceblue;
     padding-top: 100px;
@@ -33,12 +33,15 @@ header h1 {
 
 main {
     background-color: #1f1B24;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 article {
     margin:auto;
-    max-width: 70%;
-    min-width: 100px;
+    max-width: 50%;
+    min-width: 400px;
 }
 article h2 {
     padding-top: 50px;
@@ -57,5 +60,5 @@ td, th {
 }
 
 p {
-    margin: 20px;
+    margin: 20px 0px;
 }
