@@ -25,10 +25,16 @@ header {
 
 header h1 {
     backdrop-filter: blur(15px);
+    transition: backdrop-filter 0.1s;
     text-align: center;
     color: aliceblue;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+header h1:hover {
+    backdrop-filter: blur(3px);
+    transition: backdrop-filter 0.1s;
 }
 
 main {
