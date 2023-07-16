@@ -2,6 +2,7 @@ html {
     background-color: #393E46;
     color: white;
     font-family: 'Roboto', sans-serif;
+    padding: 0px 40px;
 }
 
 /*Header*/
@@ -10,19 +11,14 @@ header {
     margin: 80px 20px 60px 20px;
 }
 
-
 .selector {
     background-color: #6b6b6b3d;
     text-align: center;
-    max-width: 100%;
+    max-width: 1100px;
     min-width: 120px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px auto;
     border-radius: 20px;
     padding: 10px;
-
 }
 
 .item {
@@ -31,17 +27,18 @@ header {
     border-radius: 10px;
     box-shadow: 6px 6px 12px #222831;
     margin: 20px;
+    background-color: #393E46;
+    vertical-align: top;
+}
+
+.item:hover {
+    box-shadow: -6px -6px 12px #222831;
 }
 
 /*Colors*/
 #colorList li {
     width: 100px;
-    height: 100px;
-}
-
-#colorList li:hover {
-    border: solid 1px white;
-    box-shadow: none;
+    height: 120px;
 }
 
 #colorList #black {
@@ -67,7 +64,6 @@ header {
 #fontList .item  {
     height: 300px;
     width: 150px;
-    vertical-align: top;
 }
 
 #roboto {
@@ -80,4 +76,48 @@ header {
 
 #mont {
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*Headings*/
+h1 {
+    font-size: 40px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px; 
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#headingList li{
+    position: relative;
+    text-align: left;
+    min-height: 200px;
+    min-width: 150px
+}
+
+#headingList li p {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
 }
