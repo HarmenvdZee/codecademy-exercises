@@ -1,0 +1,152 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+/*Navbar*/
+nav {
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-content: center;
+}
+
+nav img {
+  height: 50px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 10px;
+  z-index: 2;
+}
+
+nav ul {
+  position: absolute;
+  right: 10px;
+}
+
+nav li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+/*Our Mission*/
+#ourMission {
+  background-image: url("../images/img-mission-background.webp");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ourMission div {
+  position: relative;
+  height: fit-content;
+  width: 1200px;
+}
+
+#ourMission div h4 {
+  width: 100%;
+}
+
+/*Tea of the Month*/
+#teaOfTheMonth {
+  margin: 30px 0px;
+  width: 1000px;
+}
+
+#teas {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#teas li {
+  margin: 0px 10px;
+}
+
+#teas li h4 {
+  margin-top: 10px;
+}
+
+#teas li img {
+  height: 200px;
+  width: 300px;
+}
+
+/*Locations*/
+#locations {
+  background-image: url("../images/img-locations-background.webp");
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+
+#locations ul {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0);
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#locations ul li {
+  list-style: none;
+  width: 300px;
+  margin: 0px 40px;
+}
+
+#locations h2 {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 40px;
+}
+
+/*info*/
+#info {
+  height: 200px;
+}
+
+footer {
+  display: block;
+  float: left;
+}
+
+/*footer*/
