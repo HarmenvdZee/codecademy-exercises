@@ -1,0 +1,83 @@
+html {
+    background-color: #393E46;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+header {
+    text-align: center;
+    margin: 80px 20px 60px 20px;
+}
+
+
+.selector {
+    background-color: #6b6b6b3d;
+    text-align: center;
+    max-width: 100%;
+    min-width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.item {
+    display: inline-block;
+    padding: 0px 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px #222831;
+    margin: 20px;
+}
+
+/*Colors*/
+#colorList li {
+    width: 100px;
+    height: 100px;
+}
+
+#colorList li:hover {
+    border: solid 1px white;
+    box-shadow: none;
+}
+
+#colorList #black {
+    background-color: #222831;
+}
+
+#colorList #grey {
+    background-color: #393E46;
+}
+
+#colorList #teal {
+    background-color: #00ADB5;
+    color: #222831;
+}
+
+#colorList #white {
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/*Fonts*/
+
+#fontList .item  {
+    height: 300px;
+    width: 150px;
+    vertical-align: top;
+}
+
+#roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+#infant {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+#mont {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
