@@ -1,0 +1,204 @@
+html {
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 5.0rem;
+    margin-bottom: 0.8rem;
+    color: rgb(158, 201, 109);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: rgb(158, 201, 109);
+    text-transform: uppercase;
+}
+
+.image-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: auto;
+    height: 400px;
+    display: block;
+}
+
+/*nav*/
+
+nav {
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+}
+
+nav img {
+    height: 100%;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+    nav img {
+        display: none;
+    }
+}
+
+/*header*/
+header {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header .banner {
+    background-image: url("https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/330987013_722744322587162_28166974159608352_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=4kXJKvqZULkAX9lPQhu&_nc_ht=scontent-ams2-1.xx&oh=00_AfBEuChHcNaA68kDQ9gR59v_Mj3eADo13YFqoxxjcuDJ0g&oe=64BACED3");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+}
+
+header .banner #blur {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header #info {
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+header #info p {
+    min-width: 30rem;
+    max-width: 50rem;
+}
+
+/*main*/
+
+/*openingstijden*/
+#openingstijden {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-container {
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px black;
+    margin: 3rem;
+}
+
+#tijden {
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    #openingstijden {
+        flex-direction: column;
+    }
+
+    header .banner  {
+        height: 400px;
+    }
+    
+    .image-container {
+        order: 1;
+        box-shadow: none;
+        border-radius: 0px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    #tijden {
+        align-self: unset;
+        order: 2;
+    }
+}
+
+/*tarieven*/
+#tarieven {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    width: fit-content;
+    margin: 0px auto;
+}
+
+#tarieven td, th {
+    text-align: left;
+    padding: 10px; /* add padding to increase space between td elements */
+}
+
+#tarieven p {
+    margin-top: 50px;
+}
+
+#tarieven table,#tarieven th, #tarieven td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#tarieven thead {
+    background-color: rgb(158, 201, 109);
+    color: black;
+}
+
+/*footer*/
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
