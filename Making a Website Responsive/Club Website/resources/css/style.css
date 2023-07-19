@@ -1,0 +1,147 @@
+html {
+  background-color: #393E46;
+  color: white;
+  font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: rgb(68, 124, 68);
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: rgb(68, 124, 68);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3 {
+    color: rgb(68, 124, 68);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*nav*/
+
+nav {
+    height: 4rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(68, 124, 68);
+    color: black;
+}
+
+nav img {
+    margin-left: 1rem;
+    height: 100%;
+}
+
+nav ul {
+    margin-left: auto;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+  text-decoration: none;
+}
+
+/*banner*/
+#banner {
+    background-image: url("../images/gebouw.jpg");
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner div {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main*/
+
+main {
+  display: grid;
+  grid-template-areas: "info info" "watIsScouting activiteiten" "speltakken speltakken" "vrijwiligers lidWorden";
+    gap: 2rem;
+    width: 60rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+#info {
+    grid-area: info;
+}
+
+#watIsScouting {
+    grid-area: watIsScouting;
+}
+
+#activiteiten {
+    grid-area: activiteiten;
+}
+
+#speltakken {
+    grid-area: speltakken;
+}
+
+#speltakken ul {
+    margin: 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#speltakken ul li {
+    list-style: none;
+    width: 12rem;
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 12px ;
+}
+
+#speltakken ul li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#vrijwiligers {
+    grid-area: vrijwiligers;
+}
+
+#lidWorden {
+    grid-area: lidWorden;
+}
+
+/*footer*/
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 0.2rem;
+}
