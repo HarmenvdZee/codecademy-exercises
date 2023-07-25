@@ -45,6 +45,7 @@ nav ul {
     margin-left: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-items: flex-start;
 }
 
 nav li {
@@ -70,7 +71,7 @@ nav a {
 #banner div {
     height: 100%;
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +134,7 @@ main {
 }
 
 #speltakken ul li:hover {
-    box-shadow: 4px 4px 20px;
+    box-shadow: 4px 4px 30px;
 }
 
 #speltakken ul li img {
