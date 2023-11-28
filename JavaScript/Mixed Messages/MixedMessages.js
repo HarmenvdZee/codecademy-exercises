@@ -26,11 +26,11 @@ const message = {
     "your mom",
   ],
   _place: [
-    "At school",
-    "In a park",
-    "At a party",
-    "At a concert",
-    "At a bar",
+    "at school",
+    "in a park",
+    "at a party",
+    "at a concert",
+    "at a bar",
     "on a mountain",
   ],
   _time: [
@@ -49,7 +49,7 @@ const message = {
     const timeIndex = Math.floor(Math.random() * this._time.length);
 
     return `${this._person[personIndex]} ${this._action[actionIndex]} ${this._thing[thingIndex]} ${this._place[placeIndex]} ${this._time[timeIndex]}.`;
-  }
+  },
 };
 
 console.log(message.makeMessage());
