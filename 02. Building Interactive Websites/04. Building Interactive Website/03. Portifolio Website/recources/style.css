@@ -1,0 +1,156 @@
+/* Reset default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles */
+/*nav*/
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+}
+
+nav h2 {
+  margin-left: 1rem;
+
+}
+
+nav ul {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 1rem 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/*banner*/
+header {
+  display: flex;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+header img {
+  width: 500px;
+  border-radius: 100%;
+  padding: 30px;
+}
+
+header #welcome {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header #welcome a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/*body*/
+main {
+  max-width: 900px;
+  margin: 20px auto; 
+  font-size: 18px;
+}
+
+#projects ul {
+  margin: 3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0;
+}
+
+#projects li {
+  list-style: none;
+  width: 12rem;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px ;
+}
+
+#projects li button {
+  margin: 5px;
+  height: 20px;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+#projects li button img {
+  height: 100%;
+  width: 100%;
+}
+
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contacts #form {
+  width: 420px;
+  margin: 10px;
+}
+
+
+#contacts #form textarea {
+  width: 100%;
+}
+
+#contacts #form #name {
+  width: 300px;
+  float: right;
+  
+}
+
+#contacts #form #email {
+  width: 300px;
+  float: right;
+}
+
+#contacts #form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contacts #form button:hover {
+  background-color: #45a049;
+}
+
+#contacts #email-info {
+  margin: 10px;
+  width: 420px;
+}
